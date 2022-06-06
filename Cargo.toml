@@ -1,0 +1,28 @@
+[package]
+name = "rust-music-bot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+envy = "0.4"
+dotenv = "0.15"
+serenity = { version = "0.10.9", default-features = false, features = [
+	"builder",
+	"cache",
+	"client",
+	"framework",
+	"gateway",
+	"model",
+	"http",
+	"standard_framework",
+	"utils",
+	"rustls_backend",
+] }
+log = "0.4"
+fern = { version = "0.6", features = ["colored"] }
+serde = "1.0.137"
+anyhow = "1.0.57"
+chrono = "0.4.19"
