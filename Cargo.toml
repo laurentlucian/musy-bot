@@ -20,7 +20,9 @@ serenity = { version = "0.10.9", default-features = false, features = [
 	"standard_framework",
 	"utils",
 	"rustls_backend",
+	"voice",
 ] }
+songbird = "0.2.2"
 log = "0.4"
 fern = { version = "0.6", features = ["colored"] }
 serde = "1.0.137"
