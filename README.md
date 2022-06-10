@@ -1,4 +1,4 @@
-# rust-music-bot
+# music-bot
 ## 🏗
 
 Add Discord to Spotify Connect
